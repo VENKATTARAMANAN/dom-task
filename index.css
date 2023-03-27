@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(247, 255, 247);
+}
+
+.heading {
+    padding: 0;
+}
+
+.heading>h1 {
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+        color: #fff;
+}
+
+.temp-storage-heading>h3 {
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    background-color: rgb(231, 88, 88);
+    color: #fff;
+}
+
+button:active {
+    transform: scale(0.95);
+    transition: 0.5s;
+}
+
+tbody>tr:hover {
+    background-color: rgb(242, 242, 242);
+}
+
+input[type=text],
+[type=number],
+[type=radio],
+[type=checkbox] {
+    background-color: rgb(247, 255, 247);
+}
+
+input[type=text]:focus,
+[type=number]:focus {
+    background-color: rgb(247, 255, 247);
+}
