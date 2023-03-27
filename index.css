@@ -20,6 +20,7 @@ body {
 }
 
 .temp-storage-heading>h3 {
+    width: 100%;
     text-align: center;
     padding: 20px 0;
     margin-bottom: 20px;
